@@ -1,0 +1,44 @@
+$tools-img:"/images/tools.png";
+$airplane-img:"/images/airplane.png";
+$love-img:"/images/love.png";
+#footer
+{
+	background:black;
+	height:305px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	border-top:1px solid $main-border-color;
+	
+	p
+	{
+		color:$main-text-color * 0.8;
+		text-align:center;
+		font-family:$main-font, $alt-font1;
+	}
+	h3
+	{
+		color:$main-text-color;
+		font-family:$main-font, $alt-font1;
+		text-align:center;	
+	}
+	.ball
+	{
+		height:155px;
+		width:155px;
+		margin:auto;
+		border-radius:100%;	
+	}
+	#tools
+	{
+		@include background-url($tools-img);
+	}
+	#airplane
+	{
+		@include background-url($airplane-img);
+	}
+	#love
+	{
+		@include background-url($love-img);
+	}
+}

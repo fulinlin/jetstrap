@@ -1,0 +1,184 @@
+/*Background Variables*/
+/*Font*/
+/*Other*/
+#main-nav ul {
+  padding: 0;
+  margin: 0;
+  background: #162233;
+  float: right;
+  width: 54%;
+  border-bottom: 1px solid #ffffff;
+}
+
+#main-nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 27px 33px;
+}
+
+#main-nav li:nth-child(6) {
+  padding: 0px;
+  margin-left: 40px;
+}
+
+#main-nav a {
+  text-decoration: none;
+  font-family: Century Gothic, Verdana;
+  color: #fff;
+}
+
+#main-nav li:hover {
+  -moz-transition: all 700ms ease;
+  -o-transition: all speed ease;
+  -webkit-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  transition: all 700ms ease;
+  background: #ff4576;
+  cursor: pointer;
+}
+
+#main-nav #logo-container {
+  height: 76px;
+  width: 46%;
+  display: inline-block;
+  background: #162233;
+  border-bottom: 1px solid #ffffff;
+}
+
+#main-nav #logo-container h1 {
+  color: #fff;
+  font-family: Impact;
+  margin-left: 10%;
+}
+
+#main-nav #register-log-container {
+  height: 75px;
+  background: #162233;
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav #register-log-container h4 {
+  color: #fff;
+  font-family: Century Gothic, Verdana;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#main-nav .register-sign-item {
+  height: 40px;
+  width: 100px;
+  display: inline-block;
+  margin: 17px -2px;
+}
+
+#main-nav .register-sign-item:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#main-nav #log-in {
+  background: #999;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+#main-nav #sign-up {
+  background: #ff4576;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#footer {
+  background: black;
+  height: 305px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #ffffff;
+}
+
+#footer p {
+  color: #cccccc;
+  text-align: center;
+  font-family: Century Gothic, Verdana;
+}
+
+#footer h3 {
+  color: #fff;
+  font-family: Century Gothic, Verdana;
+  text-align: center;
+}
+
+#footer .ball {
+  height: 155px;
+  width: 155px;
+  margin: auto;
+  border-radius: 100%;
+}
+
+#footer #tools {
+  background: url("/images/tools.png") no-repeat center center;
+}
+
+#footer #airplane {
+  background: url("/images/airplane.png") no-repeat center center;
+}
+
+#footer #love {
+  background: url("/images/love.png") no-repeat center center;
+}
+
+#main-container {
+  width: 100%;
+  height: 420px;
+  padding: 30px;
+}
+
+#main-container #main-header-container {
+  height: 140px;
+  width: 100%;
+}
+
+#main-container #getting-started {
+  height: 80px;
+  width: 250px;
+  margin: 50px auto;
+  border-radius: 30px;
+  box-shadow: 2px 3px 3px #555;
+  border: 1px solid #ffffff;
+  background: -moz-linear-gradient(#666, #111);
+  background: -ms-linear-gradient(#666, #111);
+  background: -webkit-linear-gradient(#666, #111);
+  background: linear-gradient(#666, #111);
+}
+
+#main-container #getting-started:hover {
+  cursor: pointer;
+}
+
+#main-container h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Impact;
+  font-size: 72px;
+}
+
+#main-container h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  line-height: 55px;
+  font-family: Impact;
+}
+
+#main-container p {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+body {
+  background: url("/images/bg.jpg");
+}
