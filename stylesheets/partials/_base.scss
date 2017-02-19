@@ -1,6 +1,6 @@
 /*Background Variables*/
-$bg-img:"/images/bg.jpg";
-$bg-color:#162233; 
+$bg-img:"/jetstrap/images/bg.jpg";
+$bg-color:#162233;
 
 /*Font*/
 $main-font: Century Gothic;
@@ -26,9 +26,13 @@ $main-border-color: #ffffff;
 }
 
 @mixin background-gradient($color1, $color2)
-{	 
+{
 	background: -moz-linear-gradient($color1,$color2);
 	background: -ms-linear-gradient($color1,$color2);
 	background: -webkit-linear-gradient($color1,$color2);
 	background: linear-gradient($color1,$color2);
+}
+.hidden
+{
+	display:none;
 }

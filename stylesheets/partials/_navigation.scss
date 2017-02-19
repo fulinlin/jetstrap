@@ -1,51 +1,63 @@
-#main-nav 
+.navbar-default
 {
-	
+	background:$bg-color !important;
+	border-radius: 0px !important;
+	border:none !important;
+	border-bottom: 1px solid white !important;
+}
+.main-nav
+{
+	z-index: 1001;
+	background:red;
 	ul
 	{
 		padding:0;
 		margin:0;
 		background:$bg-color;
 		float:right;
-		width:54%;
-		border-bottom:1px solid $main-border-color;
+		display:flex;
+		align-items: center;
+		justify-content: center;
 	}
 	li
 	{
+		border-radius:3px;
 		list-style:none;
 		display:inline-block;
-		padding:27px 33px;
+		padding:10px 20px;
+		&:hover
+		{
+			@include transition(all, 700ms, ease);
+			background:$hover-color;
+			cursor:pointer;
+		}
 	}
 	li:nth-child(6)
 	{
-		padding:0px;
-		margin-left:40px;
+		&:hover
+		{
+			background:none;
+		}
 	}
 	a
 	{
 		text-decoration:none;
 		font-family:$main-font, $alt-font1;
-		color:$main-text-color;
-	}
-	li:hover
-	{
-		@include transition(all, 700ms, ease);
-		background:$hover-color;
-		cursor:pointer;
+		color:$main-text-color !important;
 	}
 	#logo-container
 	{
-		height:76px;
-		width:46%;
 		display:inline-block;
-		background:$bg-color;
-		border-bottom:1px solid $main-border-color;
-		
+		padding:10px;
 		h1
 		{
 			color:$main-text-color;
 			font-family:$secondary-font;
 			margin-left:10%;
+		}
+		&:hover
+		{
+			cursor:pointer;
 		}
 	}
 	#register-log-container
@@ -54,7 +66,6 @@
 		background:$bg-color;
 		padding:0;
 		margin:0;
-		
 		h4
 		{
 			color:$main-text-color;
@@ -63,7 +74,6 @@
 			font-size:14px;
 			line-height:20px;
 		}
-	
 	}
 	.register-sign-item
 	{

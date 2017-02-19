@@ -1,15 +1,12 @@
-$tools-img:"/images/tools.png";
-$airplane-img:"/images/airplane.png";
-$love-img:"/images/love.png";
-#footer
+$tools-img:"/jetstrap/images/tools.png";
+$airplane-img:"/jetstrap//images/airplane.png";
+$love-img:"/jetstrap/images/love.png";
+.footer-container
 {
+	padding:10px;
+
+	border-top:1px solid white;
 	background:black;
-	height:305px;
-	width:100%;
-	position:absolute;
-	bottom:0;
-	border-top:1px solid $main-border-color;
-	
 	p
 	{
 		color:$main-text-color * 0.8;
@@ -20,14 +17,14 @@ $love-img:"/images/love.png";
 	{
 		color:$main-text-color;
 		font-family:$main-font, $alt-font1;
-		text-align:center;	
+		text-align:center;
 	}
 	.ball
 	{
-		height:155px;
-		width:155px;
+		height:135px;
+		width:135px;
 		margin:auto;
-		border-radius:100%;	
+		border-radius:100%;
 	}
 	#tools
 	{
