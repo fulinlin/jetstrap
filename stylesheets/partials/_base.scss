@@ -12,6 +12,15 @@ $main-text-color:#fff;
 $hover-color:#ff4576;
 $main-border-color: #ffffff;
 
+h1,h2,h3,h4,h5,h6
+{
+	font-family:$main-font ,$secondary-font, Verdana;
+}
+h1,h2,h3,h4,p,strong
+{
+	color:$main-text-color;
+}
+
 @mixin background-url($file)
 {
 	background:url($file)no-repeat center center;
@@ -19,7 +28,6 @@ $main-border-color: #ffffff;
 @mixin transition($element, $speed, $ease)
 {
 	-moz-transition:$element $speed $ease;
-	-o-transition:$element speed $ease;
 	-webkit-transition:$element $speed $ease;
 	-ms-transition:$element $speed $ease;
 	transition:$element $speed $ease;

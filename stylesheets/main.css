@@ -1,6 +1,14 @@
 /*Background Variables*/
 /*Font*/
 /*Other*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: Century Gothic, Impact, Verdana;
+}
+
+h1, h2, h3, h4, p, strong {
+  color: #fff;
+}
+
 .hidden {
   display: none;
 }
@@ -36,7 +44,6 @@
 
 .main-nav li:hover {
   -moz-transition: all 700ms ease;
-  -o-transition: all speed ease;
   -webkit-transition: all 700ms ease;
   -ms-transition: all 700ms ease;
   transition: all 700ms ease;
@@ -114,6 +121,10 @@
   background: black;
 }
 
+.footer-container .col-md-4 {
+  padding: 30px;
+}
+
 .footer-container p {
   color: #cccccc;
   text-align: center;
@@ -172,24 +183,20 @@
 
 #main-container h1 {
   text-align: center;
-  color: #fff;
-  font-family: Impact, Century Gothic, Verdana;
-  font-size: 72px;
+  font-size: 86px;
 }
 
 #main-container h4 {
   text-align: center;
-  color: #fff;
   text-shadow: 2px 2px 2px #333;
+  color: white;
   font-size: 28px;
   line-height: 55px;
-  font-family: Century Gothic;
   font-weight: bold;
 }
 
 #main-container p {
   text-align: center;
-  color: #fff;
   font-size: 30px;
 }
 

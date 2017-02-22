@@ -25,24 +25,20 @@
 	h1
 	{
 		text-align:center;
-		color:$main-text-color;
-		font-family:$secondary-font ,$main-font, Verdana;
-		font-size:72px;
+		font-size:86px;
 	}
 	h4
 	{
 		text-align:center;
-		color:$main-text-color;
     text-shadow: 2px 2px 2px #333;
+    color:white;
 		font-size:28px;
 		line-height:55px;
-		font-family:$main-font;
     font-weight: bold;
 	}
 	p
 	{
 		text-align:center;
-		color:$main-text-color;
 		font-size:30px;
 	}
 }

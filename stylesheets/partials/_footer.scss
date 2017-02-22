@@ -4,9 +4,12 @@ $love-img:"/images/love.png";
 .footer-container
 {
 	padding:10px;
-
 	border-top:1px solid white;
 	background:black;
+	.col-md-4
+	{
+		padding:30px;
+	}
 	p
 	{
 		color:$main-text-color * 0.8;
