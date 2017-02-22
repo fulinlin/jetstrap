@@ -26,7 +26,7 @@
 	{
 		text-align:center;
 		color:$main-text-color;
-		font-family:$secondary-font;
+		font-family:$secondary-font ,$main-font, Verdana;
 		font-size:72px;
 	}
 	h4

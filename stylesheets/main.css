@@ -134,15 +134,15 @@
 }
 
 .footer-container #tools {
-  background: url("/jetstrap/images/tools.png") no-repeat center center;
+  background: url("/images/tools.png") no-repeat center center;
 }
 
 .footer-container #airplane {
-  background: url("/jetstrap//images/airplane.png") no-repeat center center;
+  background: url("/images/airplane.png") no-repeat center center;
 }
 
 .footer-container #love {
-  background: url("/jetstrap/images/love.png") no-repeat center center;
+  background: url("/images/love.png") no-repeat center center;
 }
 
 #main-container {
@@ -173,7 +173,7 @@
 #main-container h1 {
   text-align: center;
   color: #fff;
-  font-family: Impact;
+  font-family: Impact, Century Gothic, Verdana;
   font-size: 72px;
 }
 
@@ -194,5 +194,5 @@
 }
 
 body {
-  background: url("/jetstrap/images/bg.jpg");
+  background: url("/images/bg.jpg");
 }
